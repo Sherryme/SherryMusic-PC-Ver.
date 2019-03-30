@@ -1,12 +1,7 @@
 @echo off
-::ÉèÖÃ³ÌĞò»òÎÄ¼şµÄÍêÕûÂ·¾¶£¨±ØÑ¡£©
-set Program=%~dp0\Ñ©ÀòÒôÀÖ.exe
- 
-::ÉèÖÃ¿ì½İ·½Ê½Ãû³Æ£¨±ØÑ¡£©
-set LnkName=Ñ©ÀòÒôÀÖ
- 
-::ÉèÖÃ¿ì½İ·½Ê½ÏÔÊ¾µÄËµÃ÷£¨¿ÉÑ¡£©
-set Desc=¶à¸öÆ½Ì¨£¬Ò»´Î³©Ìı
+set Program=%~dp0\é›ªè‰éŸ³ä¹.exe
+set LnkName=é›ªè‰éŸ³ä¹
+set Desc=å¤šä¸ªå¹³å°ï¼Œä¸€æ¬¡ç•…å¬
  
 if not defined WorkDir call:GetWorkDir "%Program%"
 (echo Set WshShell=CreateObject("WScript.Shell"^)
@@ -17,7 +12,7 @@ echo oShellLink.WorkingDirectory="%WorkDir%"
 echo oShellLink.WindowStyle=1
 echo oShellLink.Description="%Desc%"
 echo oShellLink.Save)>makelnk.vbs
-echo ×ÀÃæ¿ì½İ·½Ê½´´½¨³É¹¦£¡
+echo æ¡Œé¢å¿«æ·æ–¹å¼åˆ›å»ºæˆåŠŸï¼
 makelnk.vbs
 del /f /q makelnk.vbs
 exit
