@@ -1,4 +1,4 @@
-﻿namespace CSkinDemo
+﻿namespace SherryMusic
 {
     partial class Form
     {
@@ -49,7 +49,6 @@
             this.webBrowser.Size = new System.Drawing.Size(992, 562);
             this.webBrowser.TabIndex = 0;
             this.webBrowser.Url = new System.Uri("http://sherry.cf/music/", System.UriKind.Absolute);
-            this.webBrowser.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser_DocumentCompleted);
             // 
             // notifyIcon1
             // 
@@ -65,19 +64,19 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.退出ToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(101, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(109, 28);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // 退出ToolStripMenuItem1
             // 
             this.退出ToolStripMenuItem1.Name = "退出ToolStripMenuItem1";
-            this.退出ToolStripMenuItem1.Size = new System.Drawing.Size(100, 22);
+            this.退出ToolStripMenuItem1.Size = new System.Drawing.Size(108, 24);
             this.退出ToolStripMenuItem1.Text = "退出";
             this.退出ToolStripMenuItem1.Click += new System.EventHandler(this.退出ToolStripMenuItem1_Click);
             // 
             // Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CanResize = false;
@@ -88,7 +87,7 @@
             this.ClientSize = new System.Drawing.Size(1000, 600);
             this.CloseBoxSize = new System.Drawing.Size(15, 15);
             this.CloseDownBack = global::SherryMusic.Properties.Resources.winfo_icon_关闭;
-            this.CloseMouseBack = global::SherryMusic.Properties.Resources.winfo_icon_关闭;
+            this.CloseMouseBack = global::SherryMusic.Properties.Resources.Close_Red;
             this.CloseNormlBack = global::SherryMusic.Properties.Resources.winfo_icon_关闭;
             this.ControlBoxOffset = new System.Drawing.Point(10, 10);
             this.ControlBoxSpace = 10;

@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CCWin;
 
-namespace CSkinDemo
+namespace SherryMusic
 {
     public partial class Form : CCSkinMain
     {
@@ -44,10 +38,6 @@ namespace CSkinDemo
             Application.Exit();
         }
 
-        private void webBrowser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
